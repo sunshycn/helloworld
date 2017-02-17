@@ -1,5 +1,6 @@
 import pandas as pd
 import numpy as np
+import sys
 
 rng1 = pd.date_range('1/1/2017', periods=12, freq='D')
 rng2 = pd.date_range('1/11/2017', periods=3, freq='D')
@@ -12,3 +13,4 @@ print(ts)
 print(ts.values)
 print(ts.values[-1])
 print(ts4)
+print(sys.argv)
